@@ -1,0 +1,37 @@
+body {
+    background-color: #399184; /* Cor do fundo */
+    color:#000000; /* Cor das letras */
+    font-family: monospace;
+    padding: 24px; /* Margem */
+}
+
+.title {
+    font-size: 40px; /* Tamanho da fonte */
+    color: black; /* Cor da fonte */
+}
+
+.lista_itens {
+    margin-bottom: 20px; /* Colocar margem nas coisas */
+    font-size: 24px;
+}
+
+input {
+    height: 32px;
+    background-color: transparent;
+    color: rgb(59, 50, 66);
+    border-color: #000000; /* Cor da borda */
+    border-radius: 10px; /* Raio da borda */
+    font-size: 15px; /* Tamanho da fonte */
+    padding: 4px;
+}
+
+.add_task_button {
+    font-size: 15px;
+    padding: 14px;
+    background-color: #984cdabd;
+    border-width: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold; /* Expessura da fonte */
+    font-family: monospace;
+}

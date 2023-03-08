@@ -4,9 +4,36 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Estudo para projeto</title>
+        <title>Lista</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/main.js"></script>
     </head>
+
+    <!-- COMENTARIOS GERAIS
+
+        <div> : Bloco de conteúdos
+        <h1> : Titulo
+        <input> : Interação com o usuario
+        <button> : Botão
+
+    -->
+
     <body>
-        
+        <div>
+            <h1 class="title">Lista Interativa</h1>
+        </div>
+        <div>
+            <ul id="list"></ul>
+        </div>
+        <div>
+            <input 
+            type="text" 
+            id="task_name" 
+            name="task_name" 
+            placeholder="Nome das atividades"
+            />
+            <button onclick="addNewTask()">Adicionar Atividade</button>
+        </div>
+
     </body>
 </html>
